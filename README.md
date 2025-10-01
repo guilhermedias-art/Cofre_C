@@ -4,11 +4,9 @@ Este projeto implementa um sistema de cofre eletrônico em linguagem C, rodando 
 
 🚀 Funcionalidades
 
-Cadastrar senha inicial → O usuário define a primeira senha de acesso ao cofre.
+Cadastrar senha inicial → O usuário necessita descobrir qual é a senha do cofre
 
-Abrir cofre → Solicita a senha e valida o acesso.
-
-Alterar senha → Permite redefinir a senha do cofre, desde que a senha anterior seja informada corretamente.
+Abrir cofre → Solicita a senha e valida o acesso caso tenha selecionado a ordem correta, considerando que há 5 tentativas de acerto.
 
 Bloqueio após tentativas incorretas → Caso a senha seja digitada incorretamente várias vezes, o sistema pode simular o bloqueio de acesso.
 
